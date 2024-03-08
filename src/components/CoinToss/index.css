@@ -1,0 +1,88 @@
+/* Write your CSS here */
+
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35vw;
+}
+
+.toss-head {
+  color: #a35200;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Roboto;
+}
+
+.toss-para {
+  color: #334155;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  padding: 0;
+}
+
+.toss-img {
+  width: 120px;
+}
+
+.toss-btn {
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  padding: 8px;
+  width: 80px;
+  color: #a35200;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+
+.toss-results-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.toss-list-item {
+  padding-right: 30px;
+  color: #475569;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .toss-container {
+    width: 70vw;
+    padding: 25px;
+  }
+  .toss-head {
+    font-size: 18px;
+  }
+  .toss-para {
+    font-size: 14px;
+  }
+  .toss-list-item {
+    padding-right: 8px;
+    font-weight: 500;
+  }
+  .toss-results-list {
+    text-align: center;
+  }
+}
